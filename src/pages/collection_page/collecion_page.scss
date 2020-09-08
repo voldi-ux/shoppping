@@ -1,0 +1,24 @@
+.catagory {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+    }
+    &-items{
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .collection-item {
+            margin: 10px;
+        }
+    }
+
+    
+}

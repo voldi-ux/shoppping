@@ -1,0 +1,41 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    padding: 10px;
+    .logo {
+      width: 50px;
+      height: 50px;
+      fill: rgb(133, 131, 131);
+    }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      display: inline-block;
+      padding: 10px 15px;
+      font-size: 18px;
+      color:#000;
+      text-decoration: none;
+      user-select: none;
+      cursor: pointer;
+    }
+    .signOut {
+         font-size: 18px;
+         text-transform: uppercase;
+         cursor: pointer;
+         user-select: none;
+    }
+  }
+}
